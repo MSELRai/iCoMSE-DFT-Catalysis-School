@@ -35,6 +35,7 @@
       MAX_SCF 50
       ADDED_MOS 10
       &OUTER_SCF .TRUE.
+        EPS_SCF 1.0E-5
         MAX_SCF 50
       &END OUTER_SCF
       &DIAGONALIZATION  ON
