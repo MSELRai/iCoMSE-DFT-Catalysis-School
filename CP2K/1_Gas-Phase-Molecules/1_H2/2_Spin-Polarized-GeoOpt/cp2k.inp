@@ -15,7 +15,7 @@
     UKS .TRUE.
     &MGRID
       NGRIDS 4
-      CUTOFF 340
+      CUTOFF 250
       REL_CUTOFF 40
     &END MGRID
     &QS
