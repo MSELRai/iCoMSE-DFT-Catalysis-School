@@ -1,16 +1,16 @@
 # generated using pymatgen
-data_Pt
+data_Ni
 _symmetry_space_group_name_H-M   'P 1'
-_cell_length_a   3.97677000
-_cell_length_b   3.97677000
-_cell_length_c   3.97677000
+_cell_length_a   3.50579800
+_cell_length_b   3.50579800
+_cell_length_c   3.50579800
 _cell_angle_alpha   90.00000000
 _cell_angle_beta   90.00000000
 _cell_angle_gamma   90.00000000
 _symmetry_Int_Tables_number   1
-_chemical_formula_structural   Pt
-_chemical_formula_sum   Pt4
-_cell_volume   62.89142306
+_chemical_formula_structural   Ni
+_chemical_formula_sum   Ni4
+_cell_volume   43.08842967
 _cell_formula_units_Z   4
 loop_
  _symmetry_equiv_pos_site_id
@@ -24,7 +24,7 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
-  Pt  Pt0  1  0.00000000  0.00000000  0.00000000  1
-  Pt  Pt1  1  0.00000000  0.50000000  0.50000000  1
-  Pt  Pt2  1  0.50000000  0.00000000  0.50000000  1
-  Pt  Pt3  1  0.50000000  0.50000000  0.00000000  1
+  Ni  Ni0  1  0.00000000  0.00000000  0.00000000  1
+  Ni  Ni1  1  0.00000000  0.50000000  0.50000000  1
+  Ni  Ni2  1  0.50000000  0.00000000  0.50000000  1
+  Ni  Ni3  1  0.50000000  0.50000000  0.00000000  1
