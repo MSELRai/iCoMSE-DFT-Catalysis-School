@@ -87,7 +87,7 @@ AR       = ar -r
 RANLIB   = ranlib
 CFLAGS   = -O3 -fopenmp -g
 DFLAGS   = $DFLAGS
-FCFLAGS  = $FCFLAGS
+FCFLAGS  = $FCFLAGS $DFLAGS
 LDFLAGS  = $FCFLAGS $DFLAGS
 LIBS     = -framework Accelerate
 EOF
