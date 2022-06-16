@@ -1,0 +1,15 @@
+# Rel Grid cutoff vs total energy
+# Date: Wed Jun 15 10:01:24 AM CDT 2022
+# PWD: /home/woodrowwilson/Documents/Workshops/MSU-DFT-Catalysis-School/Devel/CP2K/2_Solids/2_CONVERGENCE/1_CUTOFF
+# CUTOFF = 250
+# Rel Cutoff (Ry) | Total Energy (Ha) | NG on grid 1 | NG on grid 2 | NG on grid 3 | NG on grid 4
+     10.00   -31.2990794555       0       0    2752   12496
+     20.00   -31.3030229372       0     632    8292    6324
+     30.00   -31.3029791573       0    2752    6808    5688
+     40.00   -31.3029788213      88    3252    6220    5688
+     50.00   -31.3029780632     360    4516    7420    2952
+     60.00   -31.3029780242     632    8292    3388    2936
+     70.00   -31.3029780242    2568    6360    3384    2936
+     80.00   -31.3029780242    2568    6360    3384    2936
+     90.00   -31.3029780243    2752    6808    5672      16
+    100.00   -31.3029780243    3340    6220    5672      16
