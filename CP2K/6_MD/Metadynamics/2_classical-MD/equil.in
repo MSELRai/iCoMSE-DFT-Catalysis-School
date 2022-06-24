@@ -1,0 +1,16 @@
+Density equilibration
+&cntrl
+  imin= 0,                       ! Run molecular dynamics.
+  nstlim=30000,                  ! Number of MD-steps to be performed.
+  dt=0.002,                      ! Time step (ps)
+  irest=1,                       ! Restart the simulation and read coordinates and velocities from the restart file provided in -c
+  ntx=5,                         ! Initial file contains coordinates and velocities.
+  ntpr=500, ntwx=500, ntwr=500,  ! Output options
+  cut=8.0,                       ! non-bond cut off
+  temp0=298,                     ! Temperature
+  ntt=3, gamma_ln=3.0,           ! Temperature scaling using Langevin dynamics with the collision frequency in gamma_ln (ps−1)
+  ntb=2,                         ! Periodic conditiond at constant pressure
+  ntc=2, ntf=2,                  ! Constrain lengths of bonds having hydrogen atoms (SHAKE)
+  ntp=1, taup=2.0,               ! Pressure scaling
+  iwrap=1, ioutfm=1,             ! Output trajectory options
+/

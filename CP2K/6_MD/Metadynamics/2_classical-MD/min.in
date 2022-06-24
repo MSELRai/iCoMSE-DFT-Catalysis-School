@@ -1,0 +1,6 @@
+Minimisation of system
+ &cntrl
+  imin=1,        ! Perform an energy minimization.
+  maxcyc=4000,   ! The maximum number of cycles of minimization.
+  ncyc=2000,     ! The method will be switched from steepest descent to conjugate gradient after NCYC cycles.
+ /

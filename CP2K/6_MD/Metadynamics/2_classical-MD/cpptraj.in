@@ -1,0 +1,5 @@
+trajin equil.rst7
+autoimage
+trajout system.equil.rst7 inpcrd
+go
+quit

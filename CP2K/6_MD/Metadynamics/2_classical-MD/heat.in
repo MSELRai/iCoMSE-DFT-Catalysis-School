@@ -1,0 +1,20 @@
+Heating ramp from 0K to 298K
+ &cntrl
+  imin=0,                   ! Run molecular dynamics.
+  ntx=1,                    ! Initial file contains coordinates, but no velocities.
+  irest=0,                  ! Do not restart the simulation, (only read coordinates from the coordinates file)
+  nstlim=15000,             ! Number of MD-steps to be performed.
+  dt=0.002,                 ! Time step (ps)
+  ntf=2, ntc=2,             ! Constrain lengths of bonds having hydrogen atoms (SHAKE)
+  tempi=0.0, temp0=298.0,   ! Initial and final temperature
+  ntpr=500, ntwx=500,       ! Output options
+  cut=8.0,                  ! non-bond cut off
+  ntb=1,                    ! Periodic conditiond at constant volume
+  ntp=0,                    ! No pressure scaling
+  ntt=3, gamma_ln=2.0,      ! Temperature scaling using Langevin dynamics with the collision frequency in gamma_ln (ps−1)
+  ig=-1,                    ! seed for the pseudo-random number generator will be based on the current date and time.
+  nmropt=1,                 ! NMR options to give the temperature ramp.
+ /
+&wt type='TEMP0', istep1=0, istep2=12000, value1=0.0, value2=298.0 /
+&wt type='TEMP0', istep1=12001, istep2=15000, value1=298.0, value2=298.0 /
+&wt type='END' /
